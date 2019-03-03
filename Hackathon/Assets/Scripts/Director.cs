@@ -30,7 +30,7 @@ public class Director : MonoBehaviour {
         int beatCounter = 0;
         int durationCounter = 0;
         int confidenceCounter = 0;
-        string path = "D:\\Development\\Hackathon\\Hackathon\\Assets\\SongText\\Partition.txt";
+        string path = "D:\\Development\\Hackathon\\Hackathon2019--SwingBeat\\Hackathon\\Assets\\SongText\\Partition.txt";
         string[] lines = System.IO.File.ReadAllLines(path);
         foreach (string line in lines)
         {
@@ -60,11 +60,6 @@ public class Director : MonoBehaviour {
 
         SuperInvoke.RunRepeat(4.8111f, 2.37f/2, 200, SimpleCount);
 
-
-
-
-        // m_Renderer.material.color = Color.red;
-        // m_Renderer.material.color = Color.white;
     }
 
     private void SimpleCount()
@@ -81,7 +76,6 @@ public class Director : MonoBehaviour {
 
     }
 
-
     public void Start()
     {
 
@@ -90,7 +84,7 @@ public class Director : MonoBehaviour {
     private void Awake()
     {
         m_Renderer = GetComponent<Renderer>();
-        m_Renderer.material.color = Color.green;
+        m_Renderer.material.color = Color.red;
         beatDirector();
         StartCoroutine(StartBeat());
     }
