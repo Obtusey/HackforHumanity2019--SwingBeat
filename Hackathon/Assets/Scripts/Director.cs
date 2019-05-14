@@ -59,7 +59,7 @@ public class Director : MonoBehaviour {
 
         }
 
-        SuperInvoke.RunRepeat(4.8111f, 2.37f/2, 200, SimpleCount);
+        SuperInvoke.RunRepeat(4.8111f, 2.37f/2, 300, SimpleCount);
 
     }
 

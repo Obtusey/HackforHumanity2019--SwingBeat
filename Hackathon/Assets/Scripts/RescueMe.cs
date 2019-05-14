@@ -15,7 +15,8 @@ public class RescueMe : MonoBehaviour {
 	void Update () {
         if (OVRInput.Get(OVRInput.Button.One))
         {
-             SceneManager.LoadScene("Demo");
+             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            // SceneManager.LoadScene("Demo");
         }
 	}
 }
