@@ -30,7 +30,8 @@ public class Director : MonoBehaviour {
         int beatCounter = 0;
         int durationCounter = 0;
         int confidenceCounter = 0;
-        string path = "D:\\Development\\Hackathon\\Hackathon2019--SwingBeat\\Hackathon\\Assets\\SongText\\Partition.txt";
+        string path = "Assets\\SongText\\Partition.txt";
+        // D:\\Development\\Hackathon\\Hackathon2019--SwingBeat\\Hackathon\\Assets\\SongText\\Partition.txt
         string[] lines = System.IO.File.ReadAllLines(path);
         foreach (string line in lines)
         {
