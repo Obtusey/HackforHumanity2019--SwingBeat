@@ -73,33 +73,33 @@ public class Visualizer : MonoBehaviour
             var cube1 = Instantiate(cubePrefab);
             cube1.transform.SetParent(transform);
             cube1.name = group.index.ToString();
-            cube1.transform.position = new Vector3(22, 0 , -65);
+            cube1.transform.position = new Vector3(0, 0 , 0);
             cube1.transform.Rotate(new Vector3(0, rotate, 0));
-            cube1.transform.Translate(new Vector3(12f, 0, 0), Space.Self);
+            cube1.transform.Translate(new Vector3(120f, 0, 0), Space.Self);     //12f
             cube1.SetActive(true);
 
             var cube2 = Instantiate(cubePrefab);
             cube2.transform.SetParent(transform);
             cube2.name = group.index.ToString();
-            cube2.transform.position = new Vector3(22, 0, -65);
+            cube2.transform.position = new Vector3(0, 0, 0);
             cube2.transform.Rotate(new Vector3(0, rotate, 0));
-            cube2.transform.Translate(new Vector3(10f, 0, 0), Space.Self);
+            cube2.transform.Translate(new Vector3(85f, 0, 0), Space.Self);    //10f
             cube2.SetActive(true);
 
             var cube3 = Instantiate(cubePrefab);
             cube3.transform.SetParent(transform);
             cube3.name = group.index.ToString();
-            cube3.transform.position = new Vector3(22, 0, -65);
+            cube3.transform.position = new Vector3(0, 0, 0);
             cube3.transform.Rotate(new Vector3(0, rotate, 0));
-            cube3.transform.Translate(new Vector3(7f, 0, 0), Space.Self);
+            cube3.transform.Translate(new Vector3(70f, 0, 0), Space.Self);    // 7f
             cube3.SetActive(true);
 
             var cube4 = Instantiate(cubePrefab);
             cube4.transform.SetParent(transform);
             cube4.name = group.index.ToString();
-            cube4.transform.position = new Vector3(22, 0, -65);
+            cube4.transform.position = new Vector3(0, 0, 0);
             cube4.transform.Rotate(new Vector3(0, rotate, 0));
-            cube4.transform.Translate(new Vector3(4f, 0, 0), Space.Self);
+            cube4.transform.Translate(new Vector3(55f, 0, 0), Space.Self);    //4f
             cube4.SetActive(true);
 
             // Set cube color
