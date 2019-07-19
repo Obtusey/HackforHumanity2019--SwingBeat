@@ -2373,6 +2373,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 143184594796757322, guid: 7d4dc5f4322d99646861fe12138465a2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 143184594796757322, guid: 7d4dc5f4322d99646861fe12138465a2,
+        type: 3}
+      propertyPath: m_SlopeLimit
+      value: 45
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
 --- !u!1001 &720924231
@@ -6644,7 +6654,7 @@ HingeJoint:
     min: 0
     max: 0
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: 3.4028233e+38
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6836,7 +6846,7 @@ HingeJoint:
     min: 0
     max: 0
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: 3.4028233e+38
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -6978,7 +6988,7 @@ HingeJoint:
     min: 0
     max: 0
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: 3.4028233e+38
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7067,7 +7077,7 @@ HingeJoint:
     min: 0
     max: 0
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: 3.4028233e+38
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -7156,7 +7166,7 @@ HingeJoint:
     min: 0
     max: 0
     bounciness: 0
-    bounceMinVelocity: 0.2
+    bounceMinVelocity: 3.4028233e+38
     contactDistance: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
