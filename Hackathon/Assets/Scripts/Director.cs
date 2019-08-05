@@ -65,7 +65,7 @@ public class Director : MonoBehaviour {
 
     private void SimpleCount()
     {
-        Debug.Log("Beat!");
+        //Debug.Log("Beat!");
         if (m_Renderer.material.color == Color.red)
         {
             m_Renderer.material.color = Color.green;
