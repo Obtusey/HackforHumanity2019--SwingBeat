@@ -300,7 +300,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &73899152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -573,7 +573,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!1 &276600555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100018, guid: 0f78a76cb528af84f8f50bf9b381527a,
@@ -2160,9 +2160,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1191182298171594, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1129668524729068, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_Layer
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129668524729068, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4247803795311374, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2272,29 +2280,57 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1394152682494864, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1596411128665686, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596411128665686, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1260856632910444, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1260856632910444, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1608400326020920, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608400326020920, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1129033740628260, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1129033740628260, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1394171354645896, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1394171354645896, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1170676051384670, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1170676051384670, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1408113642072528, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_Layer
@@ -2304,6 +2340,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 1713302156925894, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1402014373760572, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -2311,6 +2351,10 @@ PrefabInstance:
     - target: {fileID: 1109049801741118, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1109049801741118, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1164980931955594, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_Layer
@@ -2347,6 +2391,10 @@ PrefabInstance:
     - target: {fileID: 1097725926155032, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097725926155032, guid: 7d4dc5f4322d99646861fe12138465a2, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 143184594796757322, guid: 7d4dc5f4322d99646861fe12138465a2,
         type: 3}
@@ -3853,7 +3901,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &1248629513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5917,7 +5965,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!1 &1517380390
 GameObject:
   m_ObjectHideFlags: 0
@@ -6125,6 +6173,7 @@ GameObject:
   - component: {fileID: 1517747984}
   - component: {fileID: 1517380433}
   - component: {fileID: 1517380434}
+  - component: {fileID: 1517380435}
   m_Layer: 0
   m_Name: ManuallyRiggedFigure
   m_TagString: Untagged
@@ -6663,7 +6712,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!1 &1517380426
 GameObject:
   m_ObjectHideFlags: 0
@@ -6851,6 +6900,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b14d829d6e9a54988883dd8418b9cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1517380435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517380400}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.047600128, y: 0.068248205, z: 0.015165231}
+  m_Center: {x: -0.00010730447, y: 0.031770375, z: 0.0012340666}
 --- !u!1 &1517380436
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,6 +17,15 @@ public class animTestScript : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space)) 
         {
             anim.SetTrigger("startRotate");
+            Debug.Log("space pressed");
+        }
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            Debug.Log("collision enter");
         }
     }
 }
