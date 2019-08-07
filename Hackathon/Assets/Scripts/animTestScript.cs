@@ -23,9 +23,9 @@ public class animTestScript : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "Player")
+        if(other.gameObject.name == "hand_left" || other.gameObject.name == "hand_right")
         {
-            Debug.Log("collision enter");
+            Debug.Log("collision");
         }
     }
 }
