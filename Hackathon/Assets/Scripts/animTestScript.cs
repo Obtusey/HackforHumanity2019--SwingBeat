@@ -14,18 +14,17 @@ public class animTestScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if(Input.GetKeyDown(KeyCode.Space)) 
         {
             anim.SetTrigger("startRotate");
             Debug.Log("space pressed");
         }
-    }
-
-    void OnCollisionEnter(Collision other)
-    {
-        if(other.gameObject.name == "hand_left" || other.gameObject.name == "hand_right")
+        */
+        if(GlobalVariables.holdingHand == true)
         {
-            Debug.Log("collision");
+            //Debug.Log("true");
+            anim.SetTrigger("startRotate");
         }
     }
 }

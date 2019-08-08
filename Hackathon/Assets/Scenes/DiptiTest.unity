@@ -316,18 +316,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 711777811}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &265800444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265800443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bc262c07fa4c9e4686f62bbd84c0bc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &265800449
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2933,6 +2921,7 @@ GameObject:
   - component: {fileID: 1517380385}
   - component: {fileID: 1517380387}
   - component: {fileID: 1517380389}
+  - component: {fileID: 1517380397}
   m_Layer: 11
   m_Name: Left_Hand
   m_TagString: Untagged
@@ -2964,7 +2953,7 @@ GameObject:
   - component: {fileID: 1517747970}
   - component: {fileID: 1514323746}
   - component: {fileID: 1515453922}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3001,7 +2990,7 @@ GameObject:
   - component: {fileID: 1515453924}
   - component: {fileID: 1517380393}
   - component: {fileID: 1517380391}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_ElbowHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3035,7 +3024,7 @@ GameObject:
   - component: {fileID: 1517747974}
   - component: {fileID: 1514323750}
   - component: {fileID: 1515453926}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_Calf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3053,7 +3042,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.000959837, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0032384745, y: 0.0038558766, z: -0.00020976574}
+  m_ConnectedAnchor: {x: 0.0032384763, y: 0.003855873, z: -0.00020976388}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -3088,7 +3077,7 @@ GameObject:
   - component: {fileID: 1517747976}
   - component: {fileID: 1514323752}
   - component: {fileID: 1515453928}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_AnkleHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3123,7 +3112,7 @@ GameObject:
   - component: {fileID: 1514323754}
   - component: {fileID: 1515453930}
   - component: {fileID: 1517380395}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3157,13 +3146,25 @@ GameObject:
   - component: {fileID: 1517747980}
   - component: {fileID: 1514323756}
   - component: {fileID: 1515453932}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1517380397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517380384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ce0df4333bc374b822576f2653fdfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1517380398
 GameObject:
   m_ObjectHideFlags: 0
@@ -3178,7 +3179,7 @@ GameObject:
   - component: {fileID: 1517380401}
   - component: {fileID: 1517380399}
   - component: {fileID: 1517380432}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3196,7 +3197,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.010005529, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0060036858, y: 0.0010937601, z: -0.00013738126}
+  m_ConnectedAnchor: {x: 0.006003687, y: 0.0010937601, z: -0.0001373773}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -3231,8 +3232,7 @@ GameObject:
   - component: {fileID: 1517747984}
   - component: {fileID: 1517380433}
   - component: {fileID: 1517380434}
-  - component: {fileID: 1517380435}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ManuallyRiggedFigure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3268,7 +3268,7 @@ GameObject:
   - component: {fileID: 1515453938}
   - component: {fileID: 1517380405}
   - component: {fileID: 1517380403}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_WristHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3286,7 +3286,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.00071145553, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0011118823, y: 0.002190005, z: -0.00004438567}
+  m_ConnectedAnchor: {x: 0.001111886, y: 0.002190005, z: -0.00004438567}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -3321,7 +3321,7 @@ GameObject:
   - component: {fileID: 1517747988}
   - component: {fileID: 1514323764}
   - component: {fileID: 1515453940}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_WaistHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3357,7 +3357,7 @@ GameObject:
   - component: {fileID: 1515453942}
   - component: {fileID: 1517380409}
   - component: {fileID: 1517380407}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3375,7 +3375,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.0033752709, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0047111525, y: 0.0071434416, z: -0.00028533651}
+  m_ConnectedAnchor: {x: 0.0047111535, y: 0.0071434304, z: -0.00028533768}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -3410,7 +3410,7 @@ GameObject:
   - component: {fileID: 1517747992}
   - component: {fileID: 1514323768}
   - component: {fileID: 1515453944}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3446,7 +3446,7 @@ GameObject:
   - component: {fileID: 1515453946}
   - component: {fileID: 1517380417}
   - component: {fileID: 1517380411}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_ShoulderHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3464,7 +3464,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.0015962003, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0039966796, y: 0.004656207, z: -0.00020793197}
+  m_ConnectedAnchor: {x: 0.003996682, y: 0.0046562105, z: -0.00020793197}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -3501,7 +3501,7 @@ GameObject:
   - component: {fileID: 1515453948}
   - component: {fileID: 1517380415}
   - component: {fileID: 1517380413}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_LowerArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3519,7 +3519,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.0031245132, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.004194664, y: 0.006901324, z: -0.00031878403}
+  m_ConnectedAnchor: {x: 0.0041946676, y: 0.00690132, z: -0.00031878403}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -3554,7 +3554,7 @@ GameObject:
   - component: {fileID: 1517747998}
   - component: {fileID: 1514323774}
   - component: {fileID: 1515453950}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_KneeHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3590,7 +3590,7 @@ GameObject:
   - component: {fileID: 1515453698}
   - component: {fileID: 1517380427}
   - component: {fileID: 1517380419}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_LowerArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3624,7 +3624,7 @@ GameObject:
   - component: {fileID: 1517748002}
   - component: {fileID: 1514323780}
   - component: {fileID: 1515453700}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_KneeHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3642,7 +3642,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.003164927, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0041886494, y: 0.006944891, z: 0.0003550537}
+  m_ConnectedAnchor: {x: -0.004188657, y: 0.006944891, z: 0.0003550516}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -3680,6 +3680,7 @@ GameObject:
   - component: {fileID: 1517380421}
   - component: {fileID: 1517380425}
   - component: {fileID: 1517380423}
+  - component: {fileID: 1517380437}
   m_Layer: 11
   m_Name: Right_Hand
   m_TagString: Untagged
@@ -3711,7 +3712,7 @@ GameObject:
   - component: {fileID: 1517748006}
   - component: {fileID: 1514323784}
   - component: {fileID: 1515453704}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3748,7 +3749,7 @@ GameObject:
   - component: {fileID: 1515453706}
   - component: {fileID: 1517380431}
   - component: {fileID: 1517380429}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_ElbowHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3782,7 +3783,7 @@ GameObject:
   - component: {fileID: 1517748010}
   - component: {fileID: 1514323788}
   - component: {fileID: 1515453708}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_Calf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3816,7 +3817,7 @@ GameObject:
   - component: {fileID: 1517748012}
   - component: {fileID: 1514323790}
   - component: {fileID: 1515453710}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_AnkleHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3834,7 +3835,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.0011105462, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0032287552, y: 0.004008334, z: 0.0003110231}
+  m_ConnectedAnchor: {x: -0.003228757, y: 0.004008338, z: 0.0003110238}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -3869,7 +3870,7 @@ GameObject:
   - component: {fileID: 1517748014}
   - component: {fileID: 1514323760}
   - component: {fileID: 1515453936}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: NeckHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3903,7 +3904,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.010005529, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.005993165, y: 0.0010937527, z: -0.0004128015}
+  m_ConnectedAnchor: {x: -0.0059931637, y: 0.0010937527, z: -0.00041279756}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -3958,19 +3959,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b14d829d6e9a54988883dd8418b9cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &1517380435
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517380400}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.013325574, y: 0.06783769, z: 0.010881219}
-  m_Center: {x: 0.0000069377134, y: 0.033191845, z: 0.0037538398}
 --- !u!1 &1517380436
 GameObject:
   m_ObjectHideFlags: 0
@@ -3982,13 +3970,25 @@ GameObject:
   - component: {fileID: 1517748020}
   - component: {fileID: 1514323798}
   - component: {fileID: 1515453718}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1517380437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517380420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ce0df4333bc374b822576f2653fdfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1517380438
 GameObject:
   m_ObjectHideFlags: 0
@@ -4002,7 +4002,7 @@ GameObject:
   - component: {fileID: 1515453720}
   - component: {fileID: 1517380441}
   - component: {fileID: 1517380439}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_WristHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4020,7 +4020,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.00016488333, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0013036798, y: 0.0014558248, z: 0.0002411846}
+  m_ConnectedAnchor: {x: -0.0013036854, y: 0.0014558248, z: 0.00024118391}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -4055,7 +4055,7 @@ GameObject:
   - component: {fileID: 1517748024}
   - component: {fileID: 1514323802}
   - component: {fileID: 1515453722}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_WaistHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4091,7 +4091,7 @@ GameObject:
   - component: {fileID: 1515453724}
   - component: {fileID: 1517380445}
   - component: {fileID: 1517380443}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4109,7 +4109,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.003403016, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.004712696, y: 0.007167071, z: 0.0003181484}
+  m_ConnectedAnchor: {x: -0.004712699, y: 0.0071670674, z: 0.00031814515}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -4144,7 +4144,7 @@ GameObject:
   - component: {fileID: 1517748028}
   - component: {fileID: 1514323806}
   - component: {fileID: 1515453726}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4180,7 +4180,7 @@ GameObject:
   - component: {fileID: 1515453696}
   - component: {fileID: 1517380448}
   - component: {fileID: 1517380447}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_ShoulderHinge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4198,7 +4198,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.0015971196, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.003994409, y: 0.004653398, z: 0.00028435327}
+  m_ConnectedAnchor: {x: -0.003994409, y: 0.004653394, z: 0.0002843542}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -4366,14 +4366,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517380400}
-  m_LocalRotation: {x: 0.00066669704, y: -0.999211, z: -0.0019418425, w: -0.03966442}
-  m_LocalPosition: {x: -1.3, y: 4.8, z: -57.3}
+  m_LocalRotation: {x: 0.0005323117, y: -0.9941576, z: -0.001982897, w: -0.10791843}
+  m_LocalPosition: {x: -4.5, y: 11.3, z: -102}
   m_LocalScale: {x: 1124.6489, y: 1124.6489, z: 1124.6489}
   m_Children:
   - {fileID: 1517747978}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -0.22500001, y: -184.54599, z: -0.068}
+  m_LocalEulerAnglesHint: {x: -0.23200001, y: -192.39099, z: -0.036000002}
 --- !u!4 &1517747986
 Transform:
   m_ObjectHideFlags: 0
